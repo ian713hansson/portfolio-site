@@ -8,6 +8,7 @@ const Header = () => {
             <div className='header'>
                 <h1>Ian Hansson</h1>
                 <h1>Software Engineer</h1>
+                <img className='head-img' src='https://i.imgur.com/rzFIxR1.jpg'/>
             </div>
             <nav className='nav'>
                 <Link className='link' to='/'>Home</Link>
