@@ -41,6 +41,12 @@
   margin-top: 150px;
 }
 
+.home{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 .download-btn{
   width: 250px;
@@ -58,8 +64,13 @@
 }
 
 .about-div{
-  padding: 50px;
-  margin-bottom: -100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: -150px;
+  width: 40vw;
 }
 
 .projects{
