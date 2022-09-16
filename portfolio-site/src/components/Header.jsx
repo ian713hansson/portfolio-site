@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-
+import Footer from './Footer'
 
 
 const Header = () => {
@@ -8,7 +8,9 @@ const Header = () => {
             <div className='header'>
                 <h1>Ian Hansson</h1>
                 <h1>Software Engineer</h1>
+
                 <img className='head-img' src='https://i.imgur.com/rzFIxR1.jpg'/>
+                <Footer />
             </div>
             <nav className='nav'>
                 <Link className='link' to='/'>Home</Link>

@@ -11,6 +11,7 @@ function App() {
   return (
     <div className="App">
       <Header />
+      
       <main>
         <Routes>
           <Route path='/' element={<Home />} />
@@ -18,6 +19,7 @@ function App() {
           <Route path='/projects' element={<Projects />} />
         </Routes>
       </main>
+      
     </div>
   );
 }
