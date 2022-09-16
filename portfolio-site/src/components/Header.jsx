@@ -16,6 +16,7 @@ const Header = () => {
                 <Link className='link' to='/'>Home</Link>
                 
                 <Link className='link' to='/projects'>Projects</Link>
+                <Link className='link' to='/contact' >Contact Me</Link>
             </nav>
             <i class="fa-brands fa-linkedin"></i>
         </header>
