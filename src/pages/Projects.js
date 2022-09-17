@@ -17,10 +17,10 @@ const Projects = () => {
                     <h1 className='project-title'>Celestial Vibration Unit</h1>
                 </a>
                 <p className='project-description'>My first Full Stack app is a love letter to my modular synthesizer, where you can explore different modules info and a place to listen to music created using it.</p>
-                <a href='https://80s_metal_trivia.surge.sh/'>
-                <img className='project-img' src="https://i.imgur.com/Fm7lnUg.jpg"/>
-                </a>
-                <h4>Click Image to check out a walkthrough of the site</h4>
+                {/* <a href='https://80s_metal_trivia.surge.sh/'> */}
+                {/* <img className='project-img' src="https://i.imgur.com/Fm7lnUg.jpg"/> */}
+                {/* </a> */}
+                <h4>As this site is not deployed yet, please check out this walkthrough</h4>
             </div>
             <div className='project-layout'>
                 <a href='https://github.com/steves3142/dynamic_polling_backend'>
