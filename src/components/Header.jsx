@@ -13,7 +13,7 @@ const Header = () => {
                 <Footer />
             </div>
             <nav className='nav'>
-                <Link className='link' to='/'>Home</Link>
+                <Link className='link' to='/portfolio-site'>Home</Link>
                 
                 <Link className='link' to='/projects'>Projects</Link>
                 <Link className='link' to='/contact' >Contact Me</Link>
