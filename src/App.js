@@ -5,6 +5,7 @@ import About from './pages/About';
 import Header from './components/Header';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact'
+import Landing from './pages/Landing';
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       
       <main>
         <Routes>
+          <Route path='/portfolio-site' element ={<Landing />} />
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
           <Route path='/projects' element={<Projects />} />
