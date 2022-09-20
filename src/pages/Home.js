@@ -1,5 +1,6 @@
 import React from "react"
 import About from "./About"
+import Landing from "./Landing"
 
 const Home = () => {
 
@@ -16,6 +17,9 @@ const Home = () => {
     }
     return (
         <div className="home">
+            <div className="landing">
+                <Landing />
+            </div>
             <div className="about-div">
                 <h2>A little bit about me...</h2>
                 <About />
