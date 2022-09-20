@@ -313,3 +313,18 @@
     
   }
 }
+
+@media only screen and (max-width: 400px) {
+  .glitch {
+    font-size: 3rem;
+  }
+
+  .about-div{
+    width: 70vw;
+  }
+
+  .project-description{
+    width: 80vw;
+    margin-left: 30px;
+  }
+}
